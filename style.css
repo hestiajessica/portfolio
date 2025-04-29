@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+    color: #222;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+  }
+  
+  .resume-button {
+    background: white;
+    color: #ff6600;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    list-style: none;
+    background: #eee;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .project-card {
+    background: #f0f0f0;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+  }
+  li:hover{
+    background-color: rgba(240, 189, 137, 0.677);
+    color: #222;
+  }
+  a:hover{
+    background:lightgrey;
+  }
